@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kedai Kopi Ilham</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+      }
+
+      .container {
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      header {
+        background-color: #514131;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 36px;
+      }
+
+      header h2 {
+        margin: 0;
+        font-size: 18px;
+      }
+
+      nav ul {
+        background-color: #d3cdc4;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      nav ul li {
+        margin: 0;
+      }
+
+      nav ul li a {
+        display: block;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #1b1717;
+      }
+
+      nav ul li a:hover {
+        background-color: #b5a89e;
+      }
+
+      main {
+        display: flex;
+        margin: 20px 0;
+      }
+
+      .menu {
+        flex: 3;
+      }
+
+      .menu article {
+        background-color: white;
+        margin-bottom: 20px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .menu article img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      .menu article h3 {
+        margin: 0 0 10px 0;
+        font-size: 24px;
+      }
+
+      .menu article h4 {
+        margin: 0 0 10px 0;
+        font-size: 18px;
+        color: #514131;
+      }
+
+      .menu article p {
+        margin: 0;
+        font-size: 14px;
+      }
+
+      aside {
+        flex: 1;
+        margin-left: 20px;
+      }
+
+      aside .popular,
+      aside .contact {
+        background-color: white;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+      }
+
+      aside h3 {
+        margin-top: 0;
+        font-size: 18px;
+      }
+
+      aside ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      aside ul li {
+        margin-bottom: 10px;
+      }
+
+      aside ul li a {
+        text-decoration: none;
+        color: #6b5b4b;
+      }
+
+      aside ul li a:hover {
+        text-decoration: underline;
+      }
+
+      footer {
+        text-align: center;
+        padding: 10px 0;
+        background-color: #514131;
+        color: white;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>KEDAI KOPI ILHAM</h1>
+        <h2>Nikmati Hidupmu</h2>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="#">Beranda</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Pesanan</a></li>
+          <li><a href="#">Tentang</a></li>
+          <li><a href="#">Kontak</a></li>
+        </ul>
+      </nav>
+      <main>
+        <section class="menu">
+          <article>
+            <img src="menu1.jpg" alt="kopi" />
+            <h3>Kopi Hitam</h3>
+            <p>
+              Dengan biji kopi robusta pilihan yang dipetik di pagi hari dan di
+              masak dengan panas yang sempurna
+            </p>
+          </article>
+          <article>
+            <img src="menu2.webp" alt="fala icecream" />
+            <h3>Kopi Fala Icecream</h3>
+            <p>
+              Kopi Fala Icecream dengan perpaduan kopi hitam dengan Icecream
+              diatasnya menciptakan rasa dingin dan hangan yang menyenangkan.
+            </p>
+          </article>
+        </section>
+        <aside>
+          <div class="popular">
+            <h3>Menu Populer</h3>
+            <ul>
+              <li><a href="#">Kopi Hitam</a></li>
+              <li><a href="#">Kopi Fala Icecream</a></li>
+              <li><a href="#">Kopi Susu</a></li>
+              <li><a href="#">Expresso</a></li>
+            </ul>
+          </div>
+          <div class="contact">
+            <h3>Kontak</h3>
+            <p>Kedai Kopi ILHAM</p>
+          </div>
+        </aside>
+      </main>
+      <footer>
+        <p>&copy; 2024 Kedai Kopi Ilham</p>
+      </footer>
+    </div>
+  </body>
+</html>
